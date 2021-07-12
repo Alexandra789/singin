@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/tailwind.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>SingIn</title>
+</head>
+<form class="form" method="" >
+    <div class="form__wrapper">
+        <h1 class="form__title">Sing In</h1>
+        <div class="inputs">
+            <input class="rounded-3xl email-input" placeholder="Email">
+            <p class="error-email"></p>
+            <div class="password">
+                <input type="text" placeholder="Password"
+                       class="rounded-3xl password-input">
+                <p class="error-password"></p>
+                <a href="#" class="password-control"></a>
+            </div>
+        </div>
+        <div class="checkbox">
+            <label for="checkbox" class="">
+                <input type="checkbox" id="checkbox" class="text">Remember me</label>
+            <a href="" class="forgot-password">Forgot Password?</a>
+        </div>
+        <input type="submit" class="form__button bg-blue-400 rounded-3xl text-center color-white uppercase" value="Sign in">
+        <p class="text">Don’t have an account?<a href="" class="sign-up">Sign up</a></p>
+    </div>
+</form>
+<body>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

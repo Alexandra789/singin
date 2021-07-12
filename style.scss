@@ -1,0 +1,143 @@
+ //@import "tailwindcss/base";
+ //@import "tailwindcss/components";
+ //@import "tailwindcss/utilities";
+
+/* .password {
+	position: relative;
+
+	&-control {
+		position: absolute;
+		top: 11px;
+		right: 6px;
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		background: url(/view.svg) 0 0 no-repeat;
+
+		&.view {
+			background: url(/no-view.svg) 0 0 no-repeat;
+		}
+	}
+} */
+
+body,html{
+	height:100%;
+	font-family: Lato;
+}
+
+.form {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&_wrapper {
+		display: inline-block;
+	}
+
+	&__title {
+		font-family: Lato;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 36px;
+		margin-bottom: 50px;
+		font-size: 26px;
+		padding-bottom: 15px;
+
+		&:hover {
+			border-bottom: 3px solid #39C3EF;
+			max-inline-size: fit-content;
+		}
+	}
+
+	&__button {
+		color: white;
+		font-size: 18px;
+		width: 445px;
+		height: 54px;
+		margin-bottom: 50px;
+	}
+
+	.inputs {
+		input {
+			width: 100%;
+			border: 1px solid #8080802e;
+			margin-bottom: 20px;
+			/* width: 350px; */
+			height: 20px;
+			padding: 25px 0px 25px 45px;
+			outline: none;
+
+			&:focus {
+				border-color: #39C3EF;
+			}
+		}
+
+		.email-input {
+			background-image: url("email.svg")
+		}
+
+		.password-input {
+			background-image: url("password.svg")
+		}
+
+		.password-input, .email-input {
+			background-repeat: no-repeat;
+			background-position-y: center;
+			background-position-x: 15px;
+		}
+
+		.error-email, .error-password {
+			color: #DD4E58;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 400;
+			margin-top: -14px;
+			margin-bottom: 20px;
+			line-height: 16px;
+		}
+	}
+
+	.checkbox {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+
+		#checkbox {
+			margin-right: 10px;
+		}
+	}
+
+	.forgot-password, .sign-up {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: right;
+		color: #39C3EF;
+		margin-left: 5px;
+	}
+
+	.error {
+		border-color: #DD4E58 !important;
+	}
+
+	.text {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+	}
+}
+
+
+
+/* .password-input::after{
+	position:relative;
+	left: 50%;
+	background-image: url("password.svg")
+} */
+
+
+
