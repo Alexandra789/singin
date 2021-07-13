@@ -2,9 +2,11 @@
  //@import "tailwindcss/components";
  //@import "tailwindcss/utilities";
 
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body,html{
 	height:100%;
-	font-family: Lato !important;
+	font-family: 'Lato' !important;
 }
 
 .form {
@@ -32,6 +34,7 @@ body,html{
 		color: white;
 		font-size: 18px;
 		width: 445px;
+		font-weight: 900;
 		height: 54px;
 		margin-bottom: 50px;
 	}
