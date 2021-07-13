@@ -39,6 +39,7 @@ body,html{
 
 	.input-wrapper {
 		margin-bottom: 60px;
+		position: relative;
 		input {
 			width: 100%;
 			border: 1px solid #8080802e;
@@ -62,15 +63,15 @@ body,html{
 			//margin-bottom: 16px;
 			//margin-top: 20px;
 		}
-		.password-wrapper{
-			position: relative;
+		//.password-wrapper{
+		//	position: relative;
 			.password-control {
 				display: inline-block;
 				background-repeat: no-repeat;
 				position: absolute;
 				width: 24px;
 				left: 90%;
-				top: 25px;
+				top: 0;
 
 				height: 20px;
 			}
@@ -80,7 +81,8 @@ body,html{
 			.hidden{
 				background-image: url(../../assets/images/hidden-password.svg);
 			}
-		}
+		//}
+
 
 		.password-input{
 			position: relative;
@@ -97,6 +99,7 @@ body,html{
 			font-size: 12px;
 			font-style: normal;
 			font-weight: 400;
+			margin-top: 5px;
 			margin-bottom: -20px;
 			line-height: 16px;
 		}
