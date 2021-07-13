@@ -1,8 +1,9 @@
 let formButton = document.querySelector('.form__button');
 let inputEmail = document.querySelector('.email-input');
 let inputPassword = document.querySelector('.password-input');
-let errorEmail = document.querySelector('.error-email');
-let errorPassword = document.querySelector('.error-password');
+console.log(inputPassword);
+let errorEmail = document.querySelector('.email-error');
+let errorPassword = document.querySelector('.password-error');
 let passwordControl = document.querySelector('.password-control');
 
 inputEmail.onblur = ()=> {
