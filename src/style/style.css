@@ -30,29 +30,31 @@ body, html {
   height: 54px;
   margin-bottom: 50px;
 }
-.form .inputs input {
+.form .input-wrapper {
+  margin-bottom: 60px;
+}
+.form .input-wrapper input {
   width: 100%;
   border: 1px solid #8080802e;
   margin-top: -15px;
-  /* width: 350px; */
   height: 20px;
   padding: 25px 0px 25px 45px;
   outline: none;
 }
-.form .inputs input:focus {
+.form .input-wrapper input:focus {
   border-color: #39C3EF;
 }
-.form .inputs .email-input {
+.form .input-wrapper .email-input {
   background-image: url("../../assets/images/email.svg");
   margin-bottom: 5px;
 }
-.form .inputs .password-input {
+.form .input-wrapper .password-input {
   background-image: url("../../assets/images/password.svg");
 }
-.form .inputs .password-wrapper {
+.form .input-wrapper .password-wrapper {
   position: relative;
 }
-.form .inputs .password-wrapper .password-control {
+.form .input-wrapper .password-wrapper .password-control {
   display: inline-block;
   background-repeat: no-repeat;
   position: absolute;
@@ -61,30 +63,27 @@ body, html {
   top: 25px;
   height: 20px;
 }
-.form .inputs .password-wrapper .show {
+.form .input-wrapper .password-wrapper .show {
   background-image: url(../../assets/images/show-password.svg);
 }
-.form .inputs .password-wrapper .hidden {
+.form .input-wrapper .password-wrapper .hidden {
   background-image: url(../../assets/images/hidden-password.svg);
 }
-.form .inputs .password-input {
+.form .input-wrapper .password-input {
   position: relative;
 }
-.form .inputs .password-input, .form .inputs .email-input {
+.form .input-wrapper .password-input, .form .input-wrapper .email-input {
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 15px;
 }
-.form .inputs .email-error, .form .inputs .password-error {
+.form .input-wrapper .email-error, .form .input-wrapper .password-error {
   color: #DD4E58;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   margin-bottom: -20px;
   line-height: 16px;
-}
-.form .inputs .password-error {
-  margin-top: -40px;
 }
 .form .password {
   position: relative;

@@ -1,7 +1,7 @@
  //@import "tailwindcss/base";
  //@import "tailwindcss/components";
  //@import "tailwindcss/utilities";
- 
+
 body,html{
 	height:100%;
 	font-family: 'Lato' !important;
@@ -37,12 +37,12 @@ body,html{
 		margin-bottom: 50px;
 	}
 
-	.inputs {
+	.input-wrapper {
+		margin-bottom: 60px;
 		input {
 			width: 100%;
 			border: 1px solid #8080802e;
 			margin-top: -15px;
-			/* width: 350px; */
 			height: 20px;
 			padding: 25px 0px 25px 45px;
 			outline: none;
@@ -97,12 +97,8 @@ body,html{
 			font-size: 12px;
 			font-style: normal;
 			font-weight: 400;
-			///* margin-top: -14px; */
 			margin-bottom: -20px;
 			line-height: 16px;
-		}
-		.password-error{
-			margin-top: -40px;
 		}
 	}
 
