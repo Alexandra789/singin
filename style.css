@@ -1,23 +1,8 @@
-/* .password {
-	position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-	&-control {
-		position: absolute;
-		top: 11px;
-		right: 6px;
-		display: inline-block;
-		width: 20px;
-		height: 20px;
-		background: url(/view.svg) 0 0 no-repeat;
-
-		&.view {
-			background: url(/no-view.svg) 0 0 no-repeat;
-		}
-	}
-} */
 body, html {
   height: 100%;
-  font-family: Lato;
+  font-family: 'Lato';
 }
 
 .form {
@@ -30,7 +15,6 @@ body, html {
   display: inline-block;
 }
 .form__title {
-  font-family: Lato;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
@@ -126,11 +110,5 @@ body, html {
   font-weight: 400;
   line-height: 24px;
 }
-
-/* .password-input::after{
-	position:relative;
-	left: 50%;
-	background-image: url("password.svg")
-} */
 
 /*# sourceMappingURL=style.css.map */
